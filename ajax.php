@@ -4,8 +4,12 @@ header("Content-type: application/json");
 header("X-Application-Description: Will cache up/down data for every ten mins.");
 
 $cache = json_decode(file_get_contents('cache.json'), TRUE);
+$runtime = time();
 
-if ($cache['updated'] > (time() - 600)) {
+header("X-Application-Cache-Updated: " . $cache['updated']);
+header("X-Application-Cache-Threshold: " . ($runtime - 600));
+
+if ($cache['updated'] > ($runtime - 600)) {
     header("X-Application-Cache: Hit");
     echo json_encode($cache);
 
@@ -19,7 +23,7 @@ function check($domain, $port){
 
 $sites = json_decode(file_get_contents('sites.json'), TRUE);
 $res = array(
-    "updated" => time()
+    "updated" => $runtime
 );
 
 foreach ($sites as $site) {

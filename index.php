@@ -25,12 +25,12 @@
 
         <div id="sites">
 
+            <h3>Indexers</h3> <br>
             <div id="indexers">
-                <h3>Indexers</h3> <br>
             </div>
 
+            <h3>Usenet Service Providers</h3> <br>
             <div id="newsgroups">
-                <h3>Newsgroups</h3> <br>
             </div>
 
         </div>

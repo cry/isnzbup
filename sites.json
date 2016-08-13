@@ -15,6 +15,7 @@
     ["eunews.blocknews.net:119", 119],
     ["eunews2.blocknews.net:119", 119],
     ["news.altopia.com:119", 119],
+    ["usenet.cat:119", 119],
     ["api.nzb.su:443", 443],
     ["nzb.cat:443", 443],
     ["simplynzbs.com:443", 443],
