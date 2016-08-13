@@ -15,7 +15,7 @@ $.ajax({
 
     for (var i = sites.length - 1; i >= 1; i--) {
 
-        if (sites[i].indexOf('119') > -1) {
+        if (sites[i].indexOf('119') > -1 || sites[i].indexOf('563') > -1) {
             if (json[sites[i]]) {
                 $("#newsgroups").append('<div class="panel panel-success"> <div class="panel-heading"> <h3 class="panel-title">' + sites[i] + '</h3> </div> </div>');
             } else {
