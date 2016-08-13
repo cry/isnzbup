@@ -19,12 +19,16 @@
 
     <div class="container">
         <h1>Is *insert nzb service* up?</h1>
-        <h4>Updates every 10 minutes or so <small>(aka last updated <span id="updated">who knows.</span>)</small></h4> <br />
+        <h5>Last updated at <span id="updated"></span></h5> <br />
 
-        <div id="loadingmsg">
+        <div id="loadingmsg" style="text-align: center;">
             <br />
-            
-            <h1 style="text-align: center;">Loading..</h1>            
+
+            <h1>Loading..</h1>        
+
+            <br /><br />
+
+            <h5>If the site appears to be loading for a while, site status is being updated.</h5>    
         </div>
 
         <div id="sites" style="display: none;">
