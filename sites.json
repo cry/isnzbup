@@ -21,5 +21,6 @@
     ["nzbfinder.ws:443", 443],
     ["api.althub.co.za:443", 443],
     ["drunkenslug.com:443", 443],
-    ["6box.me:443", 443]
+    ["6box.me:443", 443],
+    ["api.dognzb.cr:443", 443]
 ]

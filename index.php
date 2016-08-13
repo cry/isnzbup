@@ -21,9 +21,13 @@
         <h1>Is *insert nzb service* up?</h1>
         <h4>Updates every 10 minutes or so <small>(aka last updated <span id="updated">who knows.</span>)</small></h4> <br />
 
-        <h1 id="loadingmsg">Loading..</h1>
+        <div id="loadingmsg">
+            <br />
+            
+            <h1 style="text-align: center;">Loading..</h1>            
+        </div>
 
-        <div id="sites">
+        <div id="sites" style="display: none;">
 
             <h3>Indexers</h3> <br>
             <div id="indexers">

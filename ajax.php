@@ -18,6 +18,16 @@ if ($cache['updated'] > ($runtime - 600)) {
 
 function check($domain, $port){
     @$file = fsockopen ($domain, $port, $errno, $errstr, 1); //shh i dont need any output here
+
+    if (!$file) {
+
+        sleep(1);
+
+        @$retry = fsockopen ($domain, $port, $errno, $errstr, 1);
+
+        return $retry;
+    }
+
     return $file;
 }
 
