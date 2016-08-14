@@ -15,6 +15,9 @@
     ["eunews2.blocknews.net:119", 119],
     ["news.altopia.com:119", 119],
     ["news.usenet.cat:563", 563],
+    ["news.astraweb.com:119", 119],
+    ["us.astraweb.com:119", 119],
+    ["eu.astraweb.com:119", 119],
     ["api.nzb.su:443", 443],
     ["nzb.cat:443", 443],
     ["simplynzbs.com:443", 443],
@@ -22,5 +25,6 @@
     ["api.althub.co.za:443", 443],
     ["drunkenslug.com:443", 443],
     ["6box.me:443", 443],
-    ["api.dognzb.cr:443", 443]
+    ["api.dognzb.cr:443", 443],
+    ["pfmonkey.com:443", 443]
 ]
